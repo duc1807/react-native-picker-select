@@ -447,9 +447,8 @@ export default class RNPickerSelect extends PureComponent {
         <TouchableOpacity
           style={{
             justifyContent: "center",
-            width: 210,
-            height: 50,
-            backgroundColor: "rgba(0,0,0,0.4)",
+            width: 100 + '%',
+            height: 100 + '%',
           }}                                                //////////////////// Change Here
           testID="ios_touchable_wrapper"
           onPress={() => {
